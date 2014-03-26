@@ -1,0 +1,281 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: #abe;
+    margin: 20px;
+    padding: 0;
+}
+
+/* This is a comment, by the way */
+
+p {
+    line-height: 21px;
+}
+
+h1 {
+    color: #ffc;
+    background-color: #600;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em;
+    border-bottom-color: #c00;
+}
+
+h2 {
+    color: pink;
+    background-color: #090;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 2px;
+    padding-left: 14px;
+}
+
+h3 {
+    color: #999;
+    font-size: 1.25em;
+}
+
+img {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #ccc;
+}
+
+a {
+    text-decoration: none;
+}
+
+strong {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+li {
+    color: #900;
+    font-style: italic;
+}
+
+table {
+    background-color: #ccc;
+}
+
+input[type=email]:valid { background: black }
+input[type=email]:invalid { background: yellow }
+
+
+<input name="color" type="color" value="#ff8800">
+
+#top{
+    background-color: #ccc;
+    padding: 20px;
+
+}
+
+.intro {
+    color:red;
+    font-weight: bold;
+}
+
+h2 {
+    color: red;
+}
+
+.thisOtherClass {
+    color: red;
+}
+
+.yetAnotherClass {
+    color: red;
+}
+
+h2, .thisOtherClass, .yetAnotherClass{
+    color: red;
+}
+
+#top {
+    background-color: #ccc;
+    padding: 1em;
+}
+
+#top h1{
+    color: #ff0;
+}
+
+#top p{
+    color:red;
+    font-weight: bold;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active{
+    color:red;
+}
+
+a:hover{
+    text-decoration: none;
+    color: purple;
+    background-color: black;
+}
+
+input:focus, textarea:focus{
+    background: #eee;
+}
+
+p:first-child{
+    font-weight: bold;
+    font-size:30px;
+}
+
+p{
+    margin-top: 1px;
+    margin-right: 5px;
+    margin-bottom:10px;
+    margin-left: 20px;
+
+}
+p {
+    border-width: 1px;
+    border-color:  magenta  ;
+    border-style: groove;
+}
+
+p {
+    font: italic bold 12px/2 courier;
+}
+
+li {display: inline}
+
+#navigation a {
+    display: block;
+    padding: 20px 10px;
+}
+
+p {
+    font-size: 12px;
+}
+
+p:first-letter {
+    font-size: 24px;
+    float: middle;
+}
+
+p:first-line {
+    font-weight: bold;
+}
+
+blockquote:before {
+    content: open-quote;
+}
+
+blockquote:after {
+    content: close-quote;
+}
+
+li:before {
+    content: "POW! ";
+}
+
+
+
+#navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+#content {
+    margin-left: 200px;
+}
+
+#navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+#navigation2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+}
+
+#content {
+    margin: 0 200px; 
+
+ #ok_a_border_then {
+    border: 5px solid #8b2;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+h1 {
+    padding: 50px;
+    background-image: url(abstract.jpg);
+    color: rgba(0,0,0,0.8);
+}
+
+#smut { color: hsl(36, 100%, 50%) }
+
+
+@media print {
+    body {
+        font-size: 10pt;
+        font-family: times, serif;
+    }
+
+    #navigation {
+        display: none;
+    }
+
+    abbr[title] { border-bottom: 1px dotted #ccc }
+
+
+.note {
+    width: 300px;
+    height: 300px;
+    background: hsl(36,100%,50%);
+}
+
+ transform: rotate(-10deg);
+
+transform: skew(20deg,10deg);
+
+
+@media screen and (max-width: 1000px) {
+
+    #content { width: 100% }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    #nav { float: none }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #content aside {
+        float: none;
+        display: block;
+    }
+
+}

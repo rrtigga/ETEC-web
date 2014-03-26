@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(http://www.wallpick.com/wp-content/uploads/2013/11/Smokey-Abstract-Wallpaper-Wallpaper-HD.jpg) format('woff');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(http://www.wallpick.com/wp-content/uploads/2013/11/Smokey-Abstract-Wallpaper-Wallpaper-HD.jpg) format('woff');
+}
